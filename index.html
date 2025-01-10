@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Emre KANTARCI</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link href="css/custom.css" rel="stylesheet"/>
+        <script src="js/custom.js" type="text/javascript"></script>
+    </head>
+    <body>
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html"><img class="logo" src="images/logo.png"/></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="about.html">Ben Kimim</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Referanslar</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Hizmetler
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Arayüz Tasarımı</a>
+                    <a class="dropdown-item" href="#">Kurumsal Kimlik Tasarımı</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Kişisel Portfolio Tasarımı</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">İletişim</a>
+                </li>
+              </ul> 
+              <div class="header-social-links float-end">
+                <a href="https://facebook.com" class="btn-sm mr-2"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" class="btn-sm mr-2"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com" class="btn-sm mr-2"><i class="fab fa-instagram"></i></a>
+                <a href="https://linkedin.com" class="btn-sm mr-2"><i class="fab fa-linkedin-in"></i></a>
+              </div>                          
+            </div>                        
+          </nav>                          
+    </header>
+       <main><div class="particle-container">
+        <div id="staticSlide">
+          <div class="staticSlideContent">            
+              <h1>Emre KANTARCI</h1>
+              <div id="showCaption"></div>              
+              <ul id="caption">
+                  <li>Grafiker</li>
+                  <li>Yazılımcı</li>
+                  <li>Web Tasarımcı</li>
+                  <li>Blogger</li>
+              </ul>
+              <a class="btn btn-special" href="#">PORTFOLYO</a>
+              <div class="header-social-links mt-4   social-white">
+                <a href="https://facebook.com" class="btn-sm mr-2"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" class="btn-sm mr-2"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com" class="btn-sm mr-2"><i class="fab fa-instagram"></i></a>
+                <a href="https://linkedin.com" class="btn-sm mr-2"><i class="fab fa-linkedin-in"></i></a>
+              </div>         
+                <!-- Parçacıklar -->
+                <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            </div>
+          </div>
+      </div>            
+          
+        
+        </div>
+        <div class="container">
+
+        </div>
+       </main>
+        <footer>
+          <div class="sticky-footer">
+            <p>&copy; 2025 Tüm Haklar Saklıdır. | <a href="about.html">Hakkında</a> | <a href="#">İletişim</a><div class="clearFix"></div><img class="w-5" src="images/logo.png"/></p>
+        </div>
+        </footer>
+        <script>
+          document.addEventListener("DOMContentLoaded", function() {
+              const particles = document.querySelectorAll('.particle');
+  
+              particles.forEach(particle => {
+                  // Rastgele pozisyonlar için başlangıç ve bitiş noktalarını ayarlıyoruz
+                  const startX = Math.random() * window.innerWidth; // Ekranın genişliği kadar rastgele
+                  const startY = Math.random() * window.innerHeight; // Ekranın yüksekliği kadar rastgele
+                  const endX = Math.random() * window.innerWidth; // Ekranın genişliği kadar rastgele
+                  const endY = Math.random() * window.innerHeight; // Ekranın yüksekliği kadar rastgele
+  
+                  // CSS değişkenlerini güncelliyoruz (Rastgele başlangıç ve bitiş noktaları)
+                  particle.style.setProperty('--start-x', `${startX}px`);
+                  particle.style.setProperty('--start-y', `${startY}px`);
+                  particle.style.setProperty('--end-x', `${endX}px`);
+                  particle.style.setProperty('--end-y', `${endY}px`);
+              });
+          });
+      </script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-7Qkp5OhDeuV3X2hlfF6yqg5pPryhzJ+AY5Kov5tI2h3Xdt+YXwBLO3wF0yXvZ8Hf" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
+    </body>
+</html>
